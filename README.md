@@ -1,5 +1,6 @@
 # Api simple de bienvenidas para replit (Funcional con canvas)
 > Usa [**niby-welcomes**](https://www.npmjs.com/package/niby-welcomes)
+>> **🚨:warning: Todo el codigo mostrado en este README se usa en tu bot, no en la API. :warning:🚨**
 
 Hola, para la mayoría es un hecho de que trabajar con canvas puede ser estresante e incluso en algunos casos imposible técnicamente.
 
@@ -133,3 +134,6 @@ client.on('guildMemberAdd', async (member) => {
 });
 
 client.login('tu-token-super-secreto');
+```
+
+### Si tienes algún problema y/o duda respecto a esto, no dudes en contactarme por Discord, me encuentras como [K1#1960](https://discord.com/users/838091364344397835) o como [@ImK1_1960](https://twitter.com/ImK1_1960) en Twitter.
