@@ -84,7 +84,7 @@ const { Client, IntentsBitField, AttachmentBuilder } = require('discord.js');
 
 // Creamos nuestro client.
 const client = new Client({
-  intent: [
+  intents: [
     IntentsBitField.Flags.Guilds,
     IntentsBitField.Flags.GuildMembers,
     IntentsBitField.Flags.GuildMessages
